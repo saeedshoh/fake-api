@@ -82,7 +82,7 @@ class HistoryController extends Controller
                 "history" : [
                     {
                         "id": 1,
-                        "icon":"icons/service-icon.png",
+                        "icon":"storage/icons/service-icon.png",
                         "title":"Интернет",
                         "date_time":"YYYY-MM-dd hh:mm:ss",
                         "expense":-0.6,
@@ -92,7 +92,7 @@ class HistoryController extends Controller
                     },
                     {
                         "id": 2,
-                        "icon":"icons/outgoing-call.png",
+                        "icon":"storage/icons/outgoing-call.png",
                         "title":"Исходящий на Babilon-M",
                         "date_time":"25.02.2022 09:39:06",
                         "expense":-0.6,
@@ -102,7 +102,7 @@ class HistoryController extends Controller
                     },
                     {
                         "id": 3,
-                        "icon":"icons/outgoing-call.png",
+                        "icon":"storage/icons/outgoing-call.png",
                         "title":"Исходящий на Babilon-M",
                         "date_time":"25.02.2022 09:39:06",
                         "expense":-20.5,
@@ -112,7 +112,7 @@ class HistoryController extends Controller
                     },
                     {
                         "id": 4,
-                        "icon":"icons/service-icon.png",
+                        "icon":"storage/icons/service-icon.png",
                         "title":"Интернет",
                         "date_time":"YYYY-MM-dd hh:mm:ss",
                         "expense":-16.6,

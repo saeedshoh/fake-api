@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HistoryController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PaymentMethodController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TransferController;
@@ -19,9 +20,11 @@ use App\Http\Controllers\TransferController;
 
 
 Route::get('services', ServiceController::class);
+Route::get('home', HomeController::class);
 Route::get('histories', HistoryController::class);
 Route::get('transfers', TransferController::class);
-Route::get('payment-methofds', PaymentMethodController::class);
+Route::get('payment-methods', PaymentMethodController::class);
+
 
 Route::post('/pay', function () {
     return response()->json([

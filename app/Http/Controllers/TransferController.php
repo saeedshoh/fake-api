@@ -19,43 +19,43 @@ class TransferController extends Controller
             "message" : "",
             "response" : {
                 "banner" : {
-                    "image":"images/ibanner.jpg",
+                    "image":"storage/images/banner.jpg",
                     "action" : "app://tcellhome.tj/transfer/1"
                 },
                 "transfer_methods": [
                     {
                         "id" :1,
-                        "icon": "icons/wallet.png",
+                        "icon": "storage/icons/wallet.png",
                         "title" : "На карту",
                         "subtitle" : "Корти милли или Visa"
                     },
                     {
                         "id" :2,
-                        "icon": "icons/wallet.png",
+                        "icon": "storage/icons/wallet.png",
                         "title" : "На кошелек",
                         "subtitle" : "Tcell Wallet"
                     },
                     {
                         "id" :3,
-                        "icon": "icons/wallet.png",
+                        "icon": "storage/icons/wallet.png",
                         "title" : "С России в Таджикистан",
                         "subtitle" : "3% денежные переводы"
                     },
                     {
                         "id" :4,
-                        "icon": "icons/wallet.png",
+                        "icon": "storage/icons/wallet.png",
                         "title" : "Со Сбербанк онлайн",
                         "subtitle" : "Без комисии 0%"
                     },
                     {
                         "id" :5,
-                        "icon": "icons/wallet.png",
+                        "icon": "storage/icons/wallet.png",
                         "title" : "С ВТБ онлайн",
                         "subtitle" : "Tcell Wallet"
                     },
                     {
                         "id" :6,
-                        "icon": "icons/wallet.png",
+                        "icon": "storage/icons/wallet.png",
                         "title" : "С Альфа банк онлайн",
                         "subtitle" : "3% денежные переводы"
                     }

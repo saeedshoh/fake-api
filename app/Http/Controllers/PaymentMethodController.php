@@ -22,7 +22,7 @@ class PaymentMethodController extends Controller
                     {
                         "id" : 13,
                         "type":"wallet",
-                        "icon" : "image/url",
+                        "icon" : "storage/icons/wallet.png",
                         "title": "Кошелек Tcell",
                         "card_number" : "4444 8888 1234 5678",
                         "balance" : 150.0
@@ -30,7 +30,7 @@ class PaymentMethodController extends Controller
                     {
                         "id" : 13,
                         "type":"card",
-                        "icon" : "image/url",
+                        "icon" : "storage/icons/korti-milli.png",
                         "title": "Кошелек Tcell",
                         "card_number" : "4444 8888 1234 5678",
                         "balance" : 0.0
