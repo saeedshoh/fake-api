@@ -55,19 +55,19 @@ class HistoryController extends Controller
                         },
                         {
                             "id" : 2,
-                            "title":"Абонентская плата (30 смн)",
+                            "title":"Абонентская плата",
                             "color":"#E10897",
                             "expense": 140.4
                         },
                         {
                             "id" : 3,
-                            "title":"Интернет (23 смн)",
+                            "title":"Интернет",
                             "color":"#B719DE",
                             "expense": 145.4
                         },
                         {
                             "id" : 4,
-                            "title":"SMS (1 смн)",
+                            "title":"SMS ",
                             "color":"#B719DE",
                             "expense": 104.4
                         },
